@@ -1,9 +1,11 @@
+# coding=utf-8
 from collections import defaultdict
 import random
 from environment import *
 import matplotlib.pyplot as plt
 
-Q_PREIOD = 3
+Q_PERIOD = 3
+
 
 class Q_Agent():
     def __init__(self, actions, epsilon=0, discount=1, alpha=0.8):
@@ -46,7 +48,7 @@ class Q_Agent():
             self.epsilon = self.initial_epsilon
             sars_list = []
 
-            for j in range(Q_PREIOD):
+            for j in range(Q_PERIOD):
                 score = 0
                 total_reward = 0
                 ob = self.game.reset()
