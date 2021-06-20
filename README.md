@@ -18,7 +18,7 @@ pip install -e .
 ```
 
 Then in the environment.py file add the path to the PyGame-Learning-Environment folder
-`sys.path.append("/path/to/PyGame-Learning-Environment")
+`sys.path.append("/path/to/PyGame-Learning-Environment")`
 
 3. Install gym_ple `pip install gym_ple`
 
